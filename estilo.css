@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 150px);
+    gap: 10px;
+    width: 80%;
+    max-width: 800px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.caja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+
+
+
+
+
+
+.uno {
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    background-color: greenyellow;
+}
+
+.dos {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+    background-color: rgb(19, 39, 193);
+}
+
+.tres {
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+    background-color: red;
+}
+
+.cuatro {
+    grid-column: 4 / 5;
+    grid-row: 2 / 4;
+    background-color: rgb(48, 75, 7);
+}
+
+.cinco {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background-color: #d2a110;
+}
+
+.seis {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    background-color: #bd9211;
+}
+
+.siete {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    background-color: #c58389;
+}
+
+.ocho {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    background-color: #780914;
+}
